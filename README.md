@@ -1,7 +1,7 @@
 # Challenge :paperclip:
 **Deserializacion de un Json en Databricks**
 
-Se busca cargar un archivo JSON en un DataFrame, seleccionar las columnas: site_id, id, nickname, points y guardar la información deserializada en archivos CSV según los puntos de los vendedores.
+Se busca cargar un archivo JSON en un DataFrame, seleccionar las columnas: "site_id", "id", "nickname", "points" y guardar la información deserializada en archivos CSV según los puntos de los vendedores.
 
 > [!TIP]
 Crear entorno en Databricks https://community.cloud.databricks.com/login.html
@@ -14,10 +14,10 @@ Crear entorno en Databricks https://community.cloud.databricks.com/login.html
 ## Desarrollo
 Dado el archivo *Sellers.json* , leer la información en un dataframe.
 ```
-df=spark.read.json("/fileStore/tables/json/seller-1.json)
+df=spark.read.json("/fileStore/tables/json/sellers-1.json)
 ```
 > [!NOTE] 
-*mi archivo se llamo sellers-1.json, porque lo subi varias veces pero deberia ser seller.json*
+*mi archivo se llamo sellers-1.json, porque lo subi varias veces pero deberia ser sellers.json*
 
 Mostrar el esquema original del dataframe para entender como estan orgnizados los datos.
 ```
