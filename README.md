@@ -1,6 +1,7 @@
 # Challenge :paperclip:
 **Deserializacion de un Json en Databricks**
-Se busca cargar un archivo JSON en un DataFrame, seleccionar las columnas: site_id, id, nickname, points y guardar la información deserializada en archivos IPYNB según los puntos de los vendedores. Aquí te dejo un ejemplo paso a paso de cómo hacerlo en una notebook de Databricks usando PySpark:
+
+Se busca cargar un archivo JSON en un DataFrame, seleccionar las columnas: site_id, id, nickname, points y guardar la información deserializada en archivos IPYNB según los puntos de los vendedores.
 
 > [!TIP]
 Crear entorno en Databricks https://community.cloud.databricks.com/login.html
